@@ -5,5 +5,5 @@ start %AppData%\TRES\TRES.exe
 cd %AppData%
 md TRES
 cd TRES
-powershell -Command "Invoke-WebRequest https://github.com/TrueCubeYT/TRES/raw/master/TRES.exe -Outfile TRES.exe"
+powershell -Command "Invoke-WebRequest https://github.com/dumbstuffified/TRES/raw/master/TRES.exe -Outfile TRES.exe"
 start TRES.exe
